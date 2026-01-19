@@ -766,7 +766,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # 基础窗口设置
-        self.setWindowTitle("光谱数据增强框架 (V0.4 - 可视化解耦) - [PyQt6]")
+        self.setWindowTitle("SpectraX")
         self.setGeometry(100, 100, 1200, 800)
         self.current_project: SpectralProject = None
         self.m4_temp_fit_curves: Dict[int, np.ndarray] = {}  # 重命名 (旧: m4_batch_fit_curves)
